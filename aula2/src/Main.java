@@ -26,13 +26,17 @@ public class Main {
 //        System.out.println(pessoaGeorge.nome + " tem a idade de "+pessoaGeorge.idade);
 
 
-        Cliente cliente = new Cliente();
-        System.out.println(cliente.nomeCliente);
+//        banco.Cliente cliente = new banco.Cliente();
+//        System.out.println(cliente.nomeCliente);
+//
+//        banco.Conta conta1 = new banco.Conta();
+//        System.out.println(conta1.cliente);
+//
+//        banco.Agencia agencia = new banco.Agencia();
+//        agencia.contas.add(conta1);
 
-        Conta conta1 = new Conta();
-        System.out.println(conta1.cliente);
+        Pessoa pessoa = new Pessoa("nome", 10, false);
+        System.out.println(pessoa.nome + " tem a idade de "+pessoa.idade);
 
-        Agencia agencia = new Agencia();
-        agencia.contas.add(conta1);
     }
 }
